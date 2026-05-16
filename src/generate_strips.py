@@ -78,7 +78,7 @@ def generate_strips(
             x_end = x_start + strip_width_px
             strip = img[:, x_start:x_end]
 
-            strip_filename = f"{book_id}_{page_id}_strip_{i:03d}_{strip_width_mm}mm.png"
+            strip_filename = f"{page_id}_strip_{i:03d}_{strip_width_mm}mm.png"
             strip_path = os.path.join(output_dir, strip_filename)
             cv2.imwrite(strip_path, strip)
 
