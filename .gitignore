@@ -69,3 +69,4 @@ dataset/strips_30mm/
 # Local config
 local_settings.py
 settings.local.py
+practical.py
